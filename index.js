@@ -130,7 +130,7 @@ Notes
 console.log("Q4 football player");
 
 footBallPlyer = {
-    name : "Cristiano Ronaldo",
+   
     age : 35,
     height : 180,
     weight : 79,
@@ -138,28 +138,32 @@ footBallPlyer = {
 };
 
 function getAge(string){
-    string = `${footBallPlyer.name} is age ${footBallPlyer.age}`;
-    console.log(string);
+
+    footBallPlyer.name = string;
+    print = `${footBallPlyer.name} is age ${footBallPlyer.age}`;
+    console.log(print);
 }
 
-getAge(footBallPlyer.name);
+getAge( "mpape");
 
 
 function getHeight(string){
-    string = `${footBallPlyer.name} is ${footBallPlyer.height} cm `;
-    console.log(string);
+    footBallPlyer.name = string;
+    print = `${footBallPlyer.name} is ${footBallPlyer.height} cm `;
+    console.log(print);
 }
 
-getHeight();
+getHeight("kris");
 
 
 
 function getWeight(string){
-    string = `${footBallPlyer.name} is ${footBallPlyer.weight} kg `;
-    console.log(string);
+    footBallPlyer.name = string;
+    print = `${footBallPlyer.name} is ${footBallPlyer.weight} kg `;
+    console.log(print);
 }
 
-getWeight();
+getWeight("Basheer");
 
 
 /* 😒 */
